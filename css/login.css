@@ -1,0 +1,179 @@
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+.wrapper {
+    position: relative;
+
+    height: fit-content;
+    min-height: 100vh;
+    width: 100%;
+
+    background-color: #00ADA5;
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.form-wrapper {
+    position: relative;
+
+    height: 100%;
+    width: 600px;
+
+    margin: 0 auto;
+}
+
+.form-wrapper > .logo {
+    position: relative;
+
+    height: 100px;
+    width: 280px;
+
+    margin: 0 auto;
+
+    background-image: url('../img/logo-ump-transparent-blue.png');
+    background-position: center;
+    background-size: contain;
+    background-repeat: no-repeat;
+}
+
+.form-wrapper > .navs {
+    position: relative;
+
+    height: fit-content;
+    width: 100%;
+
+    display: flex;
+    justify-content: space-around;
+
+    margin-bottom: 40px;
+}
+
+.form-wrapper > .navs > .nav-item {
+    position: relative;
+
+    height: fit-content;
+    width: fit-content;
+
+    padding: 12px 20px;
+    font-size: 16px;
+
+    background-color: white;
+    border-radius: 5px;
+
+    cursor: pointer;
+}
+
+.form-wrapper > .navs > .nav-item.active {
+    background-color: #008E87;
+    color: white;
+    border: 1px solid white;
+}
+
+.form-wrapper > .login-wrapper {
+    position: relative;
+
+    height: fit-content;
+    width: 100%;
+
+    margin: 0 auto;
+    padding: 15px;
+
+    background-color: #007973;
+    border-radius: 5px;
+
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.form-wrapper > .login-wrapper > .login-item {
+    position: relative;
+
+    height: 55px;
+    width: 100%;
+
+    margin-bottom: 15px;
+}
+
+.form-wrapper > .login-wrapper > .login-item.small {
+    height: 30px;
+}
+.form-wrapper > .login-wrapper > .login-item.others {
+    height: 30px;
+}
+
+.form-wrapper > .login-wrapper > .login-item.submit {
+    background-color: #CDCDCD;
+
+    line-height: 55px;
+    text-align: center;
+
+    border-radius: 5px;
+}
+
+
+.form-wrapper > .login-wrapper > .login-item > input[type='text'] {
+    height: 100%;
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    padding: 0 20px;
+
+    border-radius: 4px;
+}
+
+.form-wrapper > .login-wrapper > .login-item > select {
+    height: 100%;
+    width: 100%;
+
+    border: none;
+    outline: none;
+
+    padding: 0 20px;
+
+    border-radius: 4px;
+}
+.form-wrapper > .login-wrapper > .login-item:last-child {
+    margin-bottom: 0;
+}
+
+.form-wrapper > .login-wrapper > .login-item > .links {
+    position: relative;
+
+    height: 30px;
+    width: fit-content;
+
+    color: white !important;
+    font-size: 14px;
+
+    margin-left: auto;
+
+    line-height: 30px;
+}
+
+
+.form-wrapper > .login-wrapper > .login-item > .links > a {
+    color: white !important;
+    font-size: 14px;
+    text-decoration: none;
+}
+
+.form-wrapper > .copyright {
+    position: relative;
+
+    height: fit-content;
+    width: 100%;
+
+    margin: 35px 0;
+
+    color: white;
+    font-size: 14px;
+
+    text-align: center;
+
+}
