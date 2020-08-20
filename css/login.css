@@ -115,7 +115,7 @@ body {
 }
 
 
-.form-wrapper > .login-wrapper > .login-item > input[type='text'] {
+.form-wrapper > .login-wrapper > .login-item > input[type='text'], input[type='password'] {
     height: 100%;
     width: 100%;
 
@@ -177,3 +177,20 @@ body {
     text-align: center;
 
 }
+
+@media only screen and (max-width: 600px) {
+    .form-wrapper > .navs {
+        flex-direction: column;
+        justify-content: space-around;
+    
+        margin-bottom: 40px;
+    }
+
+    .form-wrapper > .navs > .nav-item {
+        margin: 0 auto;
+        margin-bottom: 13px;
+    }
+    .form-wrapper > .navs > .nav-item:last-child {
+        margin-bottom: 0;
+    }
+  }
